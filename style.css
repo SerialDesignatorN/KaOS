@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: Inter !important;
   background-image: url("bg.png");
   overflow: hidden;
 }
@@ -45,6 +45,7 @@ footer {
     color: BLACK;
     background-color: #75cbed;
     border: black solid 0px;
+    font-family: Inter;
     border-radius: 0px;
     font-size: 20px;
     padding-top: 5px;
@@ -118,6 +119,7 @@ display: inline-block;
 .menubutton2 {
     background-color: #0092cc;
     border: black solid 0px;
+    font-family: Inter;
     color: black;
     float: left;
     text-align: left;

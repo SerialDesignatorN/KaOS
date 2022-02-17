@@ -10,3 +10,13 @@ function vid3() {
 function vid4() {
    var video = document.getElementById("mediavid"); video.src = ("medias/memeforest.wav");
 }
+function vid5() {
+   var video = document.getElementById("mediavid"); video.src = ("https://www.youtube.com/embed/0BNrTww3olE");
+}
+function custom_video(event) {
+   var reader = new FileReader();
+   reader.onload = function() {
+      var video = document.getElementById("mediavid"); video.src = reader.result;
+   }
+   reader.readAsDataURL(event.target.files[0]);
+ }

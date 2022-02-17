@@ -5,4 +5,7 @@ this version of kaos supports dragging windows and having multiple windows open 
 You can also customize the system with settings
 and you can do your daily tasks with the notes app and more apps on the KASUS STORE
 
+Please report bugs if you found some
+This project is still in development!!!
+
 Thank you for reading

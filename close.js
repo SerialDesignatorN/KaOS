@@ -10,7 +10,7 @@ function Closetestwindow2() {
   var x = document.getElementById("window2");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var mememaker = document.getElementById("mememaker"); mememaker.src = mememaker.src;
+    var mememaker = document.getElementById("mememaker"); mememaker.src = ("https://zeankundev.github.io/KaOS-Store/apps/MEMEMAKER.html");
   } else {
     x.style.display = "none";
   }
@@ -35,7 +35,7 @@ function Closetestwindow5() {
   var x = document.getElementById("window5");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var store = document.getElementById("store"); store.src = ("http://arkaria.42web.io/kaos12html/kaosstore/.html");
+    var store = document.getElementById("store"); store.src = ("https://zeankundev.github.io/KaOS-Store/");
   } else {
     x.style.display = "none";
   }

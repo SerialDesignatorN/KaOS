@@ -35,7 +35,7 @@ function Closetestwindow5() {
   var x = document.getElementById("window5");
   if (x.style.display === "none") {
     x.style.display = "block";
-    var store = document.getElementById("store"); store.src = ("store.html");
+    var store = document.getElementById("store"); store.src = ("http://arkaria.42web.io/kaos12html/kaosstore/.html");
   } else {
     x.style.display = "none";
   }

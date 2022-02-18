@@ -1,6 +1,6 @@
 //background
 function bg1() {
-   document.getElementById("body").style.backgroundImage = "url(bg.png)";
+   document.getElementById("body").style.backgroundImage = "url(bg.jpg)";
 }
 function bg2() {
    document.getElementById("body").style.backgroundImage = "url(citywater.png)";

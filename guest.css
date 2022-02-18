@@ -1,11 +1,14 @@
 body {
   font-family: Inter;
-  background-image: url("bg.png");
+  background-image: url("bg.jpg");
   overflow: hidden;
 }
 @font-face {
     font-family: Minecraft;
     src: url(Minecraftia.ttf);
+}
+iframe {
+    background-color: white;
 }
 footer {
   overflow: hidden;
@@ -104,7 +107,7 @@ display: inline-block;
     padding: 2.5px;
     border: black solid 2px;
     background-color: #0092cc;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 .menubutton2 {

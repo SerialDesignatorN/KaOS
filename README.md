@@ -1,4 +1,4 @@
-# KaOS 12 HTML BETA 1.0
+# KaOS 12 HTML Release 1
 
 Welcome to kaos 12 html
 this version of kaos supports dragging windows and having multiple windows open at the same time

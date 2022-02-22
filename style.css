@@ -124,7 +124,3 @@ display: inline-block;
     float: left;
     text-align: left;
 }
-input[type='file'] {
- font-size: 0; 
-}
-::file-selector-button { font-size: initial;}

@@ -20,3 +20,4 @@ function custom_video(event) {
    }
    reader.readAsDataURL(event.target.files[0]);
  }
+ 

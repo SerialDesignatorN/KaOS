@@ -5,7 +5,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="close.js"></script>
 <script type="text/javascript" src="Settings.js"></script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css" id="style">
 </head>
 <body id="body">
 
@@ -81,7 +81,8 @@
 <input type="file" accept="image/*" onchange="custom_bg(event)">
     <h3>Color Scheme</h3><br>
 <button onclick="color1()">Reset Color</button><br><br>
-<input type="color" id="color" style="height: 21px;"> <button onclick="getcolor()">Test</button>
+<input type="color" id="color" style="height: 21px;"> <button onclick="getcolor()">Test</button><br><br>
+<input id="cssimport" placeholder="Import WebDE/CSS"></input><button onclick="cssimport()">Import</button>
 </div></div>
 
 </section>

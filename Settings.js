@@ -29,3 +29,7 @@ function getcolor() {
   a = document.getElementById("color").value;
   document.getElementById("header").style.backgroundColor = a;
   }
+function cssimport() {
+  b = document.getElementById("cssimport").value;
+  document.getElementById("style").src = b;
+  }

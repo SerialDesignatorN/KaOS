@@ -25,12 +25,7 @@ function custom_bg(event) {
 function color1() {
   document.getElementById("header").style.backgroundColor = "#75cbed";
 }
-function color2() {
-  document.getElementById("header").style.backgroundColor = "red";
-}
-function color3() {
-  document.getElementById("header").style.backgroundColor = "green";
-}
-function color4() {
-  document.getElementById("header").style.backgroundColor = "lightgray";
-}
+function getcolor() {
+  a = document.getElementById("color").value;
+  document.getElementById("header").style.backgroundColor = a;
+  }

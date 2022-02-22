@@ -31,5 +31,6 @@ function getcolor() {
 }
 function cssimport() {
   b = document.getElementById("cssimport").value;
+  document.styleSheets[0].href = b;
   document.getElementById("style").src = b;
 }

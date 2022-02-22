@@ -124,3 +124,6 @@ display: inline-block;
     float: left;
     text-align: left;
 }
+button {
+    padding: 2px;
+  }

@@ -14,7 +14,6 @@ body {
     width: 100%;
     background-color: #3eb049;
     height: 40px;
-    border: black solid 2px;
     margin: 0;
     padding: 0;
   }
@@ -28,21 +27,16 @@ body {
      height: 30px;
      background-color: white;
      cursor: move;
-     border: black solid 0.5px;
-     border-radius: 5px 5px 0px 0px;
-     opacity: .65;
   }
   .content {
      width: 600px;
      margin: 0;
      padding: 0;
      height: 450px;
-     border: black solid 0.5px;
-     border-radius: 0px 0px 5px 5px;
   }
   .headertext {
       color: BLACK;
-      background-color: #75cbed;
+      background-color: white;
       border: black solid 0px;
       font-family: Inter;
       border-radius: 0px;
@@ -53,11 +47,10 @@ body {
   }
   .closebutton {
       float: right;
-      background-color: #75cbed;
+      background-color: white;
       height: 100%;
       width: 50px;
       border: black solid 0px;
-      border-radius: 0px 5px 0px 0px;
       font-size: 20px;
   }
   .closebutton:hover{
@@ -89,7 +82,7 @@ body {
       text-align: center;
   }
   .sidebar{
-      height:20%;
+      height:37.5%;
   }
   .search {
       margin-top: auto;
@@ -103,7 +96,7 @@ body {
       padding: 3px;
   }
   .sidebar2 {
-      height: 72.2%;
+      height: 55%;
       width:306px;
       position:fixed!important;
       z-index:1;

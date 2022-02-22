@@ -14,7 +14,6 @@ body {
     width: 100%;
     background-color: #3eb049;
     height: 40px;
-    opacity: .55;
     border: black solid 2px;
     margin: 0;
     padding: 0;
@@ -27,7 +26,7 @@ body {
   .header {
      width: 600px;
      height: 30px;
-     background-color: #75cbed;
+     background-color: white;
      cursor: move;
      border: black solid 0.5px;
      border-radius: 5px 5px 0px 0px;
@@ -111,7 +110,6 @@ body {
       overflow:auto;
       padding: 2.5px;
       border: black solid 2px;
-      opacity: .60;
       background-color: #e2d3ff;
       display: flex;
       flex-direction: column;

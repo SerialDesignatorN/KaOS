@@ -19,11 +19,17 @@
 <button onclick="Closetestwindow()" class="menubutton2"><img src="Icons/filesicon.png" style="height: 40px; width: 40px;"></img> Files</button><br>
 <button onclick="Closetestwindow4()" class="menubutton2"><img src="Icons/media.png" style="height: 40px; width: 40px;"></img> Media</button><br>
 <button onclick="Closetestwindow5()" class="menubutton2"><img src="Icons/Store.png" style="height: 40px; width: 40px;"> Store</img></button><div class="search">
-<button style="width: 70%; border-radius: 0px; border: black solid 0px;">ㅤ</button>&nbsp;
+<button style="width: 70%; border-radius: 0px; border: black solid 0px;" onclick="NotificationMenu()">ㅤ</button>&nbsp;
 <button style="width: 7%; background-color: #00d811; border: black solid 0px;" onclick="Closetestwindow6()">ㅤ</button>&nbsp;
 <button onclick="Closetestwindow7()" style="width: 7%; background-color: #fff700; border: black solid 0px;">ㅤ</button>
 &nbsp;<a href="index.html"><button style="width: 7%; background-color: #ff0000; border: black solid 0px;">ㅤ</button></a>
 </div>
+</div>
+
+<div class="notifications" id="Sidebar2">
+<h3 style="text-align: center; font-family: minecraft;">Notifications Center</h3><br>
+<ul id="list" class="list">
+</ul>
 </div>
 
 
@@ -83,7 +89,12 @@
 <button onclick="color1()">Reset Color</button><br><br>
 <input type="color" id="color" style="height: 21px;"> <button onclick="getcolor()">Set</button><br><br>
 <input id="cssimport" placeholder="Import WebDE/CSS"></input><button onclick="cssimport()">Import</button>
-</div></div>
+</div>
+
+
+
+
+
 
 </section>
 
@@ -97,11 +108,27 @@
 <li><button onclick="Closetestwindow3()" class="menubutton"><img src="Icons/notes.png" style="height: 35px; width: 35px;"></img>&nbsp;&nbsp;</button></li>
 <li><button onclick="Closetestwindow()" class="menubutton"><img src="Icons/filesicon.png" style="height: 35px; width: 35px;"></img>&nbsp;&nbsp;</button></li>
 </ul></nav>
+
+
 </footer>
 
 
 
+<script>
+  var ul = document.getElementById("list");
+  var li = document.createElement("li");
+  li.appendChild(document.createTextNode("Welcome To Kaos 12!"));
+  ul.appendChild(li);
 
+function notifications() {
+  var ul = document.getElementById("list");
+  var li = document.createElement("li");
+  var br = document.createElement("br");
+  li.appendChild(document.createTextNode(notification));
+  ul.appendChild(br);
+  ul.appendChild(li);
+}
+</script>
 <script>
 $( ".window" ).draggable({ handle: ".header" });
 </script>

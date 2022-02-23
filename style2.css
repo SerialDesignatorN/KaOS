@@ -115,3 +115,6 @@ body {
    font-size: 0; 
   }
   ::file-selector-button { font-size: initial;}
+  button {
+    padding: 2px;
+  }

@@ -5,6 +5,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="close.js"></script>
 <script type="text/javascript" src="Settings.js"></script>
+<script type="text/javascript" src="notify.js"></script>
 <link rel="stylesheet" href="style.css" id="style">
 </head>
 <body id="body">
@@ -114,21 +115,7 @@
 
 
 
-<script>
-  var ul = document.getElementById("list");
-  var li = document.createElement("li");
-  li.appendChild(document.createTextNode("Welcome To Kaos 12!"));
-  ul.appendChild(li);
 
-function notifications() {
-  var ul = document.getElementById("list");
-  var li = document.createElement("li");
-  var br = document.createElement("br");
-  li.appendChild(document.createTextNode(notification));
-  ul.appendChild(br);
-  ul.appendChild(li);
-}
-</script>
 <script>
 $( ".window" ).draggable({ handle: ".header" });
 </script>

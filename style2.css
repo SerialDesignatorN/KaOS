@@ -26,7 +26,7 @@ body {
   .header {
      width: 600px;
      height: 30px;
-     background-color: white;
+     background-color: #3eb049;
      cursor: move;
   }
   .content {
@@ -37,7 +37,7 @@ body {
   }
   .headertext {
       color: BLACK;
-      background-color: white;
+      background-color: #e3e89b;
       border: black solid 0px;
       font-family: Inter;
       border-radius: 0px;
@@ -48,7 +48,7 @@ body {
   }
   .closebutton {
       float: right;
-      background-color: white;
+      background-color: #e3e89b;
       height: 100%;
       width: 50px;
       border: black solid 0px;
@@ -60,7 +60,7 @@ body {
   
   }
   .menubutton {
-      background-color: #2d7f35;
+      background-color: #34953e;
       border: black solid 0px;
       color: black;
       float: left;

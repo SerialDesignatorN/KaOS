@@ -12,10 +12,11 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #3eb049;
+    background-color: #34953e;
     height: 40px;
     margin: 0;
     padding: 0;
+    border: black solid 1px;
   }
   .window {
       height: 0px;
@@ -59,7 +60,7 @@ body {
   
   }
   .menubutton {
-      background-color: #3eb049;
+      background-color: #2d7f35;
       border: black solid 0px;
       color: black;
       float: left;
@@ -87,12 +88,7 @@ body {
   .search {
       margin-top: auto;
       width: 98%;
-      background-color: #e2d3ff;
-      padding: 3px;
-  }
-  .search2 {
-      width: 98%;
-      background-color: #4dc0ed;
+      background-color: #3eb049;
       padding: 3px;
   }
   .sidebar2 {
@@ -102,13 +98,13 @@ body {
       z-index:1;
       overflow:auto;
       padding: 2.5px;
-      border: black solid 2px;
-      background-color: #e2d3ff;
+      border: black solid 1px;
+      background-color: #34953e;
       display: flex;
       flex-direction: column;
   }
   .menubutton2 {
-      background-color: #e2d3ff;
+      background-color: #34953e;
       border: black solid 0px;
       font-family: Inter;
       color: black;

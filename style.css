@@ -144,3 +144,23 @@ body {
       width: 60%;
       margin: auto;
   }
+    .minimize {
+      float: right;
+      background-color: #75cbed;
+      height: 100%;
+      width: 50px;
+      border: black solid 0px;
+      font-size: 20px;
+  }
+  .minimize:hover{
+      background-color: red;
+      border: black solid 0px;
+  
+  }
+    .menubuttonminimized {
+      background-color: #0092cc;
+      border: black solid 0px;
+      color: black;
+      float: left;
+      padding: 2.5px;
+  }

@@ -53,7 +53,7 @@
 
 
 <div class="window" id="window3">
-<div class="header"><button class="headertext"> Notes</button><button onclick="Closetestwindow3()" class="closebutton">X</button><button onclick="minimize3()" class="minimize">_</button></div>
+<div class="header"><button class="headertext" onclick="saveTXT()"> Notes</button><button onclick="Closetestwindow3()" class="closebutton">X</button><button onclick="minimize3()" class="minimize">_</button></div>
 <div class="content"><textarea style="border-radius: 0px 0px 5px 5px; border: black solid 0px; width: 600; height: 450; resize: none; opacity: .95;"></textarea></div></div>
 
 
@@ -137,6 +137,30 @@ document.getElementById("minimizedmedia").style.display = "none";
 document.getElementById("minimizedstore").style.display = "none";
 document.getElementById("minimizedabout").style.display = "none";
 document.getElementById("minimizedsettings").style.display = "none";
+</script>
+<script type="text/javascript">
+    let saveTXT = () => {
+        const msg = document.getElementById('msg');
+        let data = 
+            '' + msg.value;
+        
+        const textToBLOB = new Blob([data], { type: 'text/plain' });
+        const sFileName = 'Project.TXT';
+
+        let newLink = document.createElement("a");
+        newLink.download = sFileName;
+
+        if (window.webkitURL != null) {
+            newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+        }
+        else {
+            newLink.href = window.URL.createObjectURL(textToBLOB);
+            newLink.style.display = "none";
+            document.body.appendChild(newLink);
+        }
+
+        newLink.click(); 
+    }
 </script>
 <script type="text/javascript" src="time.js"></script>
 </body>

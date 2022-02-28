@@ -123,6 +123,7 @@ body {
       color: black;
       float: left;
       text-align: left;
+      font-size: 15px
   }
   button {
       padding: 2px;
@@ -163,4 +164,8 @@ body {
       color: black;
       float: left;
       padding: 2.5px;
+      font-size: 15px
+  }
+  .menubuttonminimized:hover {
+    background-color:4dc0ed;
   }

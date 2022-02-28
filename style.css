@@ -166,6 +166,9 @@ body {
       padding: 2.5px;
       font-size: 15px
   }
-  .menubuttonminimized:hover {
+  .menubutton2:hover {
+    background-color:4dc0ed;
+  }
+  .menubutton:hover {
     background-color:4dc0ed;
   }

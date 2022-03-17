@@ -115,6 +115,7 @@ body {
       background-color: #0092cc;
       display: flex;
       flex-direction: column;
+    border-radius: 5px;
   }
   .menubutton2 {
       background-color: #0092cc;
@@ -129,7 +130,7 @@ body {
       padding: 2px;
     }
   .notifications {
-      height: 92.5%;
+      height: 92.4%;
       width:300px;
       position:fixed!important;
       z-index:100;
@@ -140,6 +141,7 @@ body {
       right:0;
       top: -1;
       display: none;
+    border-radius: 5px;
   }
   .list {
       width: 60%;
@@ -172,3 +174,8 @@ body {
   .menubutton:hover {
     background-color:4dc0ed;
   }
+.notification {
+      background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}

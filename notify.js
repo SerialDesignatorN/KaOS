@@ -1,5 +1,6 @@
 var ul = document.getElementById("list");
 var li = document.createElement("li");
+li.classList.add('notification');
 li.appendChild(document.createTextNode("Welcome To Kaos 12!"));
 ul.appendChild(li);
 

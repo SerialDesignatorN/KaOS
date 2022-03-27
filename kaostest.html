@@ -43,8 +43,8 @@
     <h1 id="span" style="font-family: Minecraft; text-shadow: -1px -1px 0 white,-1px 0px 0 white,-1px 1px 0 white,0px -1px 0 white,0px 0px 0 white,0px 1px 0 white,1px -1px 0 white,1px 0px 0 white,1px 1px 0 white; z-index:-1; text-align: center;">TIME</h1>
 
 <div class="window" id="window">
- <div class="header"><button class="headertext"> Files Beta</button><button onclick="Closetestwindow()" class="closebutton">X</button><button onclick="minimize()" class="minimize">_</button></div>
- <div class="content"><iframe src="" id="file" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe></div></div>
+ <div class="header"><button class="headertext"> Files</button><button onclick="Closetestwindow()" class="closebutton">X</button><button onclick="minimize()" class="minimize">_</button></div>
+ <div class="content"><iframe src="files.html" id="file" width="600" height="450" style="border-radius: 0px 0px 5px 5px; border: black solid 0px; background-color: white;"></iframe></div></div>
 
 
 <div class="window" id="window2">
@@ -77,22 +77,51 @@
 <div class="header" id="header"><button class="headertext"> Settings</button><button onclick="Closetestwindow6()" class="closebutton">X</button><button onclick="minimize7()" class="minimize">_</button></div>
 <div class="content" style="width: 600px;">
     <div class="settingssidebar" style="background-color: #75cbed; opacity: .65; width: 105.30px; float: left; height: 450px; border-radius: 0px 0px 0px 5px;">
-        <br><H4>🔐 Security</H4>
-        <br><H4 style="background-color: white;">🎨 Themes</H4>
+        <br><H4 style="background-color: white;">⚙ General</H4>
+        <br><H4>🎨 Themes</H4>
         <br><H4>🕒 Time</H4>
         <br><h4>❓ About</h4>
         <br><h4 onclick="notifications('Test notification appended...')">⚠️ Beta</h4>
     </div>
-    <div class="Settings" style="background-color: white; float: right; width: 484.7px; height: 440px; padding: 5px; border-radius: 0px 0px 5px 0px; opacity: .95;"><h3>Backgrounds</h3><br>
+    <div class="Settings" style="background-color: white; float: right; width: 484.7px; height: 440px; padding: 5px; border-radius: 0px 0px 5px 0px; opacity: .95; overflow: auto;">
+
+
+<fieldset>
+<legend>Background/Wallpaper</legend>
 <button onclick="bg1()">Normal</button><br><br>
 <button onclick="bg2()">City With Water</button><br><br>
 <button onclick="bg3()">Flowers</button><br><br>
 <button onclick="bg4()">Boardwalk</button><br><br>
-<input type="file" accept="image/*" onchange="custom_bg(event)"><br><br>
-    <h3>Color Scheme</h3><br>
+<input type="file" accept="image/*" onchange="custom_bg(event)">
+</fieldset>
+
+<fieldset>
+<legend>Color Scheme</legend>
 <button onclick="color1()">Reset Color</button><br><br>
-<input type="color" id="color" style="height: 21px;"> <button onclick="getcolor()">Set</button><br><br>
-<input id="cssimport" placeholder="Import WebDE/CSS"></input><button onclick="cssimport()">Import</button>
+<input type="color" id="color" style="height: 21px;"> <button onclick="getcolor()">Set</button>
+</fieldset>
+
+<fieldset>
+<legend>Themes</legend>
+<button onclick="theme1()">Default</button><br><br>
+<button onclick="theme2()">Classic</button><br><br>
+<button onclick="theme3()">Kaos 13</button><br><br>
+<input id="cssimport" placeholder="Import Theme"></input> <button onclick="cssimport()">Import</button>
+</fieldset>
+
+<fieldset>
+<legend>My Kasius Devices (Coming Soon)</legend>
+<button>Monitor</button><br><br>
+<button>Keyboard</button><br><br>
+<button>Mouse</button><br><br>
+<button>+ Add A Device</button>
+</fieldset>
+
+<fieldset>
+<legend>Updates</legend>
+<p>You Are Using The Latest Version!</p><br>
+<a href="https://zeankundev.github.io/KaOS-13/setup/"><button>Upgrade To Kaos 13!</button></a>
+</fieldset>
 </div>
 
 

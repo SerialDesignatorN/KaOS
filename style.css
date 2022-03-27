@@ -32,6 +32,7 @@ body {
      border: black solid 0.5px;
      border-radius: 5px 5px 0px 0px;
      opacity: .65;
+     overflow: auto;
   }
   .content {
      width: 600px;
@@ -178,4 +179,8 @@ body {
       background-color: lightblue;
     padding: 5px;
     border-radius: 5px;
+}
+fieldset {
+  border-radius: 5px;
+  padding: 5px;
 }

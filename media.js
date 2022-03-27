@@ -20,4 +20,7 @@ function custom_video(event) {
    }
    reader.readAsDataURL(event.target.files[0]);
  }
- 
+function loadlink() {
+   link = prompt("Enter Video Link");
+   document.getElementById("mediavid").src = link;
+}

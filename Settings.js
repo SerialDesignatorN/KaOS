@@ -33,3 +33,15 @@ function cssimport() {
   b = document.getElementById("cssimport").value;
   document.getElementById("style").href = b;
 }
+
+//themes
+
+function theme1() {
+  document.getElementById("style").href = "style.css";
+}
+function theme2() {
+  document.getElementById("style").href = "classic.css";
+}
+function theme3() {
+  document.getElementById("style").href = "https://zeankundev.github.io/KaOS-13/style.css";
+}

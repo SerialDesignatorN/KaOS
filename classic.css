@@ -163,3 +163,10 @@ fieldset {
   padding: 5px;
   font-family:arial;
 }
+button {
+  background: lightgray;
+}
+input {
+  background: lightgray;
+  border-radius: 0;
+}

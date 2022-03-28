@@ -13,10 +13,10 @@ background: lightblue;
     bottom: 0;
     width: 100%;
     background-color: lightgray;
-    height: 40px;
+    height: 45px;
     border: black solid 2px;
     margin: 0;
-    padding: 0;
+    padding: 3;
   }
   .window {
       height: 0px;
@@ -37,7 +37,7 @@ background: lightblue;
      padding: 0;
      height: 450px;
      border: black solid 0.5px;
-     border-radius: 0px 0px 5px 5px;
+    background: black;
   }
   .headertext {
       color: BLACK;
@@ -75,6 +75,7 @@ background: lightblue;
   *{
       margin: 0;
       padding: 0;
+      font-family:arial;
   }
   
   nav{
@@ -100,7 +101,7 @@ background: lightblue;
       padding: 3px;
   }
   .sidebar2 {
-      height: 72.2%;
+      height: 70.5%;
       width:306px;
       position:fixed!important;
       z-index:1;
@@ -150,10 +151,15 @@ background: lightblue;
       color: black;
       float: left;
       padding: 1px;
-      font-size: 15px
+      font-size: 15px;
+      margin: 2px;
   }
 .notification {
       background-color: gray;
     padding: 5px;
   color: white;
+}
+fieldset {
+  padding: 5px;
+  font-family:arial;
 }

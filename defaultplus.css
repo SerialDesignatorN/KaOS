@@ -1,0 +1,203 @@
+body {
+    font-family: Inter !important;
+    background-image: url("bg.jpg");
+    overflow: hidden;
+  }
+  @font-face {
+      font-family: Minecraft;
+      src: url(Minecraftia.ttf);
+  }
+  footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #00a9ec;
+    height: 40px;
+    opacity: .45;
+    border: black solid 2px;
+    margin: 0;
+    padding: 0;
+       backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+  }
+  .window {
+      height: 0px;
+      width: 0px;
+      display: none;
+  }
+  .header {
+     width: 600px;
+     height: 30px;
+     background-color: #75cbed;
+     cursor: move;
+     border-radius: 5px 5px 0px 0px;
+     opacity: .65;
+     overflow: auto;
+   backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+  }
+  .content {
+     width: 600px;
+     margin: 0;
+     padding: 0;
+     height: 450px;
+     border-radius: 0px 0px 5px 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .headertext {
+      color: BLACK;
+      background-color: #75cbed;
+      border: black solid 0px;
+      font-family: Inter;
+      border-radius: 0px;
+      font-size: 20px;
+      padding-top: 5px;
+      border-radius: 5px 0px 0px 0px;
+      height: 30px;
+  }
+  .closebutton {
+      float: right;
+      background-color: #75cbed;
+      height: 100%;
+      width: 50px;
+      border: black solid 0px;
+      border-radius: 0px 5px 0px 0px;
+      font-size: 20px;
+  }
+  .closebutton:hover{
+      background-color: red;
+      border: black solid 0px;
+  
+  }
+  .menubutton {
+      background-color: #00a9ec;
+      border: black solid 0px;
+      color: black;
+      float: left;
+  }
+  li {
+      float: left;
+      display: block;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav{
+  display: inline-block;
+  }
+  #span {
+      font-size: 75px;
+      color: black;
+      text-align: center;
+  }
+  .sidebar{
+      height:20%;
+  }
+  .search {
+      margin-top: auto;
+      width: 98%;
+      background-color: #4dc0ed;
+      padding: 3px;
+  }
+  .search2 {
+      width: 98%;
+      background-color: #4dc0ed;
+      padding: 3px;
+  }
+  .sidebar2 {
+      height: 72.2%;
+      width:306px;
+      position:fixed!important;
+      z-index:1;
+      overflow:auto;
+      padding: 2.5px;
+      border: black solid 2px;
+      opacity: .45;
+      background-color: #0092cc;
+      display: flex;
+      flex-direction: column;
+    border-radius: 5px;
+       backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+  }
+  .menubutton2 {
+      background-color: #0092cc;
+      border: black solid 0px;
+      font-family: Inter;
+      color: black;
+      float: left;
+      text-align: left;
+      font-size: 15px
+  }
+  button {
+      padding: 2px;
+    }
+  .notifications {
+      height: 92.4%;
+      width:300px;
+      position:fixed!important;
+      z-index:100;
+      padding: 2.5px;
+      border: black solid 2px;
+      opacity: .45;
+      background-color: #0092cc;
+      right:0;
+      top: -1;
+      display: none;
+    border-radius: 5px;
+       backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+  }
+  .list {
+      width: 60%;
+      margin: auto;
+  }
+    .minimize {
+      float: right;
+      background-color: #75cbed;
+      height: 100%;
+      width: 50px;
+      border: black solid 0px;
+      font-size: 20px;
+  }
+  .minimize:hover{
+      background-color: red;
+      border: black solid 0px;
+  
+  }
+    .menubuttonminimized {
+      background-color: #0092cc;
+      border: black solid 0px;
+      color: black;
+      float: left;
+      padding: 2.5px;
+      font-size: 15px
+  }
+  .menubutton2:hover {
+    background-color:4dc0ed;
+    border-radius: 5px;
+  }
+  .menubutton:hover {
+    background-color:4dc0ed;
+        border-radius: 5px;
+  }
+.notification {
+      background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+fieldset {
+  border-radius: 5px;
+  padding: 5px;
+}
+.settingssidebar {
+     backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+}
+.Settings {
+     backdrop-filter: blur(10px);
+   webkit-backdrop-filter: blur(10px);
+}

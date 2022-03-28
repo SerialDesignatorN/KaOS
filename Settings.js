@@ -43,5 +43,5 @@ function theme2() {
   document.getElementById("style").href = "classic.css";
 }
 function theme3() {
-  document.getElementById("style").href = "https://zeankundev.github.io/KaOS-13/style.css";
+  document.getElementById("style").href = "defaultplus.css";
 }
